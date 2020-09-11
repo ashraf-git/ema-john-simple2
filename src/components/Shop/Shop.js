@@ -11,7 +11,7 @@ const Shop = () => {
 
     const handleAddProduct = (product) => {
         const newCart = [...cart, product];
-        // setCart(newCart);
+        setCart(newCart);
     }
     return (
         <div className="shop-container">
